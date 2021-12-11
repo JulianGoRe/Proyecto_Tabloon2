@@ -1,0 +1,378 @@
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: $shadow;
+  z-index: 1;
+}
+
+#navBar a {
+  font-size: $fontnav;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #324d5b;
+}
+
+.carousel-inner img {
+  max-height: 46.4rem;
+}
+
+#intro section {
+  background-color: #324d5b;
+}
+
+.productosTabloon {
+  width: 100% !important;
+  text-align: center;
+  justify-content: center;
+}
+footer {
+  @include Condicional(orange);
+  min-height: 100px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+#iconosFooter i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.columna {
+  width: 100%;
+}
+
+.lista {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  margin: 0 0 0 20px;
+}
+
+.elemento {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #324d5b;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.elemento:hover {
+  opacity: 0.65;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+  background-image: url(/IMAGENES_RECURSOS/Rectangle.png);
+  font-family: "Fugaz One", sans-serif;
+  color: #324d5b;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.bannerComocomprar {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  background-image: url(/IMAGENES_RECURSOS/Rectangle.png);
+  font-family: "Fugaz One", sans-serif;
+  color: #324d5b;
+  text-transform: uppercase;
+}
+
+.titulo {
+  font-size: 70px;
+}
+
+.bannerQuienesSomos {
+  background-image: url(/IMAGENES_RECURSOS/Rectangle.png);
+  font-family: "Fugaz One", sans-serif;
+  color: #324d5b;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.primeraFraseQuienes {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.equipo {
+  display: block;
+  margin: auto;
+  width: 700px;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.equipo:hover {
+  transition: 2s;
+  transform: scale(1.2, 1.2);
+}
+
+.fraseSteve {
+  font-family: "roboto", sans-serif;
+  color: #324d5b;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.Jobs {
+  font-family: "roboto", sans-serif;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.creadores {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.imgCreadores:hover {
+  transition: 2s;
+  transform: rotateZ(360deg);
+}
+
+.tituloCre {
+  font-family: "Fugaz One", sans-serif;
+  color: orange;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.preguntaFrecuente {
+  font-family: "roboto", sans-serif;
+  color: #324d5b;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.respuesta {
+  font-family: "roboto", sans-serif;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.nombre {
+  font-family: "Fugaz One", sans-serif;
+  color: orange;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profesion {
+  font-family: "Roboto", sans-serif;
+  color: #324d5b;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.enfasis {
+  font-family: "Roboto", sans-serif;
+  color: #324d5b;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tabloonMascota {
+  margin-top: 130px;
+  margin-bottom: 120px;
+  justify-self: end;
+}
+
+.tabloonMascota:hover {
+  transition: 2s;
+  transform: scale(1.2, 1.2);
+}
+
+.tabloonMascotaDos {
+  margin-top: 130px;
+  margin-bottom: 170px;
+  justify-self: end;
+  transform: rotate(10deg);
+}
+
+.tabloonMascotaDos:hover {
+  transition: 2s;
+  transform: scale(2, 2);
+}
+
+.primeraFrase {
+  margin-top: 150px;
+  text-align: left;
+}
+
+.segundaFrase {
+  font-family: "Fugaz One", sans-serif;
+  color: #324d5b;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+.barra {
+  background-color: #324d5b;
+  font-family: "Fugaz One", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.productosSection {
+  background-image: url(/IMAGENES_RECURSOS/FondoProductos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 30px 50px 30px 50px;
+  padding: 30px 150px 30px 150px;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+  text-align: center;
+}
+
+.productoImagen {
+  padding: 20px;
+}
+
+.productoImagen:hover {
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+@keyframes animate {
+  from {
+  }
+  to {
+    transform: rotateY(70deg);
+  }
+}
+
+.tituloProducto {
+  margin: 30px;
+}
+
+.pasos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  font-family: "Fugaz One", sans-serif;
+  color: #324d5b;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.pasoImg {
+  margin-top: 200px;
+  height: 600px;
+  width: 600px;
+}
+
+.pasoTitulo {
+  font-family: "Fugaz One", sans-serif;
+  text-transform: initial;
+  font-size: 60px;
+  text-align: center;
+}
+
+.renglonUno {
+  font-family: "Roboto", sans-serif;
+  text-transform: initial;
+  font-size: 30px;
+  text-align: center;
+}
+
+.renglonDos {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  text-transform: initial;
+  font-size: 30px;
+  text-align: center;
+}
+
+.formulario {
+  margin: 30px;
+  padding: 20px;
+  color: #324d5b;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  #body {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
+@mixin Condicional($color) {
+  background-color: $color;
+
+  @if $color == orange {
+    footer {
+      background-color: black;
+      min-height: 100px;
+    } @else {
+      background-color: green;
+      min-height: 100px;
+    }
+  }
+}

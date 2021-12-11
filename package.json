@@ -1,0 +1,15 @@
+{
+  "name": "tablooweb_gomez_restrepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/Style.scss css/Style.css"
+  },
+  "author": "Julian Gomez Restrepo",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.44.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
